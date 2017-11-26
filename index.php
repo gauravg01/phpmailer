@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>G Mailinator</title>
+<title>PHP Email Spoofer</title>
 <link rel="stylesheet" type="text/css" href="custom.css" />
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <meta name="description" content="E mail Spoofer">
-<link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
 </head>
 <body bgcolor="cyan" text="black" background="bg.jpg">
 <div class="container">
@@ -17,7 +16,7 @@
 <font size="5" color="Blue"><a href="http://gauravg.ga/" target="_blank">
 <marquee bgcolor="white" behavior="alternate"
 onmouseover="this.stop();" onmouseout="this.start();">
-G Mailinator an E-mail Spoofer with Attachments by Gaurav Gupta
+An E-mail Spoofer with Attachments by Gaurav Gupta
 </marquee></font></a>
 <?php
 if(isset($_POST['submit']))
