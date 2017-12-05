@@ -26,6 +26,12 @@ button {
     width: 100%;
 }
 
+#foot {
+    background-color: #2469d8;
+    width: 100%;
+    color: white;
+}
+
 /* Add a hover effect for buttons */
 button:hover {
     opacity: 0.9;
