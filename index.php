@@ -85,7 +85,7 @@ else{
 </fieldset>
 </form>
   <div id="foot"><center>© Copyright | Made by Gaurav Gupta 
-❤️ | All rights reserved. Freenom & 000webhost are neither owners of this service nor responsible for its content.</center></div>
+❤️ | All rights reserved.</center></div>
 </div>
 </body>
 </html>
