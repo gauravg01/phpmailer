@@ -25,7 +25,7 @@ $to = $_POST['to'];
 $from = $_POST['from'];
 $subject = $_POST['subject'];
 $msg = $_POST['msg'];
-$headers = "From: ".$_POST['from']. "\r\n" ."CC:".$_POST['cc'];
+$headers = "From: ".$_POST['from']. "\r\n" ."CC:".$_POST['cc']. "\r\n" ."Content-Type: text/html; charset=iso-8859-1\n";
 $file_tmp_name = $_FILES['file']['tmp_name'];
     $file_name = $_FILES['file']['name'];
     $file_size = $_FILES['file']['size'];
@@ -51,7 +51,7 @@ else{
         
         //plain text 
         $body = "--$boundary\r\n";
-        $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
+        $body .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n"; 
         $body .= chunk_split(base64_encode($msg)); 
         
@@ -84,6 +84,8 @@ else{
 <input id="button" type="submit" name="submit" value="Send" class="pulse-button">
 </fieldset>
 </form>
+  <div id="foot"><center>© Copyright | Made by Gaurav Gupta 
+❤️ | All rights reserved. Freenom & 000webhost are neither owners of this service nor responsible for its content.</center></div>
 </div>
 </body>
 </html>
