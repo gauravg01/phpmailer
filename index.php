@@ -80,7 +80,7 @@ else{
 <label for="fromemailAddress"><b><font color="red"><sup>*</sup></font>From:</b></label>
 <input type="email" placeholder="abc@xyz.com" name="from" id="fromemailAddress" required><br>
 <label for="toemailAddress"><b><font color="red"><sup>*</sup></font>To:</b></label>
-<input type="text" placeholder="abc@xyz.com" name="to" id="toemailAddress" required><br>
+<input type="text" placeholder="abc@xyz.com,pqr@xyz.com" name="to" id="toemailAddress" required><br>
 <label for="cc"><b>CC:</b></label>
 <input type="text" placeholder="abc@xyz.com" name="cc" id="cc">
 <label for="subject"><b>Subject</b></label>
